@@ -21,6 +21,7 @@ This project demonstrates a secure Azure infrastructure architecture where:
 ---
 
 # Architecture Overview
+![Architecture Diagram](./Azure_Project.gif)
 
 ```text
                            INTERNET
@@ -123,7 +124,7 @@ Central India
 
 ```text
 VNET Name       : vnet-mini-project
-Address Space   : 10.10.0.0/16
+Address Space   : 10.0.0.0/16
 ```
 
 ---
@@ -132,9 +133,9 @@ Address Space   : 10.10.0.0/16
 
 | Subnet       | CIDR         |
 | ------------ | ------------ |
-| snet-bastion | 10.10.1.0/24 |
-| snet-app     | 10.10.2.0/24 |
-| snet-agw     | 10.10.3.0/24 |
+| snet-bastion | 10.0.1.0/24 |
+| snet-app     | 10.0.2.0/24 |
+| snet-agw     | 10.0.3.0/24 |
 
 ---
 
@@ -176,7 +177,7 @@ VNET provides private networking between Azure resources.
 ```text
 Name            : vnet-mini-project
 Region          : Central India
-Address Space   : 10.10.0.0/16
+Address Space   : 10.0.0.0/16
 ```
 
 ---
@@ -187,21 +188,21 @@ Address Space   : 10.10.0.0/16
 
 ```text
 Subnet Name : snet-bastion
-CIDR        : 10.10.1.0/24
+CIDR        : 10.0.1.0/24
 ```
 
 ### Application Subnet
 
 ```text
 Subnet Name : snet-app
-CIDR        : 10.10.2.0/24
+CIDR        : 10.0.2.0/24
 ```
 
 ### AGW Subnet
 
 ```text
 Subnet Name : snet-agw
-CIDR        : 10.10.3.0/24
+CIDR        : 10.0.3.0/24
 ```
 
 Click Create.
