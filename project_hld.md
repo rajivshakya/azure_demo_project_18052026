@@ -21,7 +21,7 @@ This project demonstrates a secure Azure infrastructure architecture where:
 ---
 
 # Architecture Overview
-![Architecture Diagram](./hld_diagram.gif)
+![Architecture Diagram](./hld_diagram1.gif)
 
 ```text
                            INTERNET
@@ -788,3 +788,4 @@ This project is excellent for:
 * Hands-on Practice
 
 ---
+Thanks
